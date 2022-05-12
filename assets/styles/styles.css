@@ -1,3 +1,147 @@
 *{
     margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+header{
+    background-color: #f0eeeb;
+    height: 95vh;
+}
+
+header nav{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+header nav div{
+    display: flex;
+    flex-direction: row;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+header nav div p{
+    padding: 20px 20px;
+}
+
+button{
+    background-color: #000;
+    color: white;
+    width: 150px;
+    height: 65px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header div.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+header div.container div.left{
+    padding: 50px 0;
+}
+
+header div.container div.left div.title h1{
+    font-size: 4.5vw;
+}
+
+header div.container div.left div.txt{
+    color: #5a5444;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+header div.container div.left div.list{
+    color: #5a5444;
+    font-size: 25px;
+}
+
+header div.container div.left div.list img{
+    padding-right: 20px;
+}
+
+header div.container div.left div.list p{
+    padding: 5px 0;
+}
+
+header div.container div.left div.form{
+    margin-top: 20px;
+}
+
+header div.container div.left div.form input{
+    height: 60px;
+    color: #b2b2b1;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid #b2b2b1;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+header div.container div.right{
+    display: flex;
+    justify-content: end;
+}
+
+header div.container div.right img{
+    width: 70%;
+}
+
+section.brands{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.brands img{
+    width: 150px;
+    height: 50px;
+}
+
+section.phone{
+    background-color: #f0eeeb;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+section.phone div.txt{
+    margin: auto;
+}
+
+section.phone div.txt div.title{
+    font-size: 30px;
+}
+
+section.phone div.txt div.txt1{
+    color: #5a5444;
+    font-size: 20px;
+    margin: 20px 0;
+    width: 135%;
+}
+
+section.phone div.txt div.link a{
+    text-decoration: underline;
+    font-weight: 800;
+    color: #5a5444;
+    font-size: 20px;
+}
+
+section.phone div.img img{
+    margin-bottom: -4px;
 }
